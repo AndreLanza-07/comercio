@@ -1,0 +1,38 @@
+body {
+    background-color: white;
+}
+#cabecalho{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    border-radius: 20px;
+    align-items: center;   
+}
+a {
+    text-decoration: none;
+    color: white;
+    margin: 40px;
+}
+h1{
+    color: white;
+}
+#im{
+    background-color: black;
+    border-radius: 20px;
+}
+img{
+    border-radius: 20px;
+    width: 45%;
+}
+iframe{
+    border-radius: 20px;
+}
+#vd{
+    background-color: black;
+    border-radius: 20px;
+}
+.back{
+    background-color: black;
+    border-radius: 20px;
+    width: 900px;
+}
