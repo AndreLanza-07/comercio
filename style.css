@@ -44,4 +44,24 @@ header {
 #telaInicial {
     width: 30%;
 }
+#outro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgba(47, 47, 104, 0.274);
+    border-radius: 500px;
+}
+
+.card-img-top{
+    width: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 50px;
+}
+p, h5{
+    color: white;
+}
+
+
 
