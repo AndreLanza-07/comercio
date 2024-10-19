@@ -3,44 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empreendendo proficionalmente-Seu negócio na web</title>
+    <title>Empreendendo Profissionalmente - Seu Negócio na Web</title>
     <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
     <div class="pai">
         <img class="logo" src="imagens/logo2.png" alt="Imagem da logo">
-                <h1>Estilo Urbano</h1>
-                <header>
-                    <a class="dis" href="index.html">Home</a>
-                    <a href="roupas.html">Roupas</a>
-                    <a href="sobre.html">Sobre nós</a>
-                    <a href="contato.html">Contato</a>
-                </header>
+        <h1>Estilo Urbano</h1>
+        <header>
+            <nav>
+                <a class="dis" href="index.html">Home</a>
+                <a href="roupas.html">Roupas</a>
+                <a href="sobre.html">Sobre Nós</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+        </header>
     </div>
+
     <h1>Contate-nos através de:</h1>
-    
-    
-    
 
-
-    <table style="border: 3px black solid;">
-        <tr>
-            <th>Forma de Contato</th>
-            <th>Contate</th>
-        </tr>
-        <tr>
-            <td>Whatsapp</td>
-            <td><a href="https://api.whatsapp.com/">Whatsapp</a></td>
-        </tr>
-        <tr>
-            <td>Telefone</td>
-            <td>(19) 99999-9999</td>
-        </tr>
-        <tr>
-            <td>Email:</td>
-            <td>Email: renanaugustovelosomedeiros.gmail.com</td>
-        </tr>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Forma de Contato</th>
+                <th>Contato</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Whatsapp</td>
+                <td><a href="https://api.whatsapp.com/">Whatsapp</a></td>
+            </tr>
+            <tr>
+                <td>Telefone</td>
+                <td>(19) 99999-9999</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><a href="mailto:renanaugustovelosomedeiros@gmail.com">renanaugustovelosomedeiros@gmail.com</a></td>
+            </tr>
+        </tbody>
     </table>
+
+    <div id="contato" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="imagens/Designer (2).jpeg" alt="Primeiro Slide" style="width: 800px; height: 600px;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Modelo</h5>
+                    <p>Modelos Gerados por IA</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="imagens/Designer (1).jpeg" alt="Segundo Slide" style="width: 800px; height: 600px;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Modelo 02</h5>
+                    <p>Modelo gerado por IA</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="imagens/Designer (3).jpeg" alt="Terceiro Slide" style="width: 800px; height: 600px;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Modelo 03</h5>
+                    <p>Modelita gerada por IA</p>
+                </div>
+            </div>
+        </div> <!-- Fecha carousel-inner -->
+        
+        <a class="carousel-control-prev" href="#contato" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#contato" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
