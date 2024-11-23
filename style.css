@@ -3,48 +3,54 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: column;
-    text-align: center  ;
+    text-align: center;
     margin: 0px;
 }
-img {
-    width: 35%;
-}
+
+
 .logo {
     width: 5%;
     padding: 5px;
     border-radius: 10%;
 }
+
 button {
     border-radius: 30px;
     color: white;
     border: solid 2px blue;
-    background-color:  rgba(111, 111, 255, 0.733);
+    background-color: rgba(111, 111, 255, 0.733);
     text-decoration: none;
 }
+
 iframe {
     width: 50%;
 }
+
 .pai {
     display: flex;
     flex-direction: row;
-    justify-content:left;
+    justify-content: left;
     align-items: center;
     background-color: black;
     color: white;
     border-radius: 20px;
 }
+
 a {
-    color:  white;
+    color: white;
     text-decoration: none;
     margin: 8px;
 }
+
 header {
     width: 67%;
 }
+
 #telaInicial {
     width: 30%;
 }
-#outro{
+
+#outro {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,15 +59,90 @@ header {
     border-radius: 500px;
 }
 
-.card-img-top{
+.card-img-top {
     width: 50%;
     margin-left: 50px;
     margin-right: 50px;
     border-radius: 50px;
 }
-p, h5{
-    color: white;
+
+.dis:hover {
+    background-color: #d0dbf8;
+    /*Trocar a cor de fundo*/
+    color: black;
+    /*A cor do texto*/
+    width: 100px;
+    /*Ajustaremos a largura do elemento*/
+    padding: 15px 25px;
+    /*A distância do conteúdo*/
+    border-radius: 8px;
+    /*Arredondar as bordas de um elemento*/
+    text-decoration: none;
+}
+
+#tabela,
+table {
+    width: 30%;
+    text-align: center;
+}
+
+.caixa1 {
+    padding: 15px;
+    background-color: rgba(107, 0, 107, 0.37);
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    border-radius: 50px;
+}
+
+.carousel-inner {
+    position: relative;
+    /*Ao mover o elemento, ele não interfere nos outros elementos ao seu redor*/
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    /*Posiciona um elemento em relação ao elemento pai mais próx.*/
+    top: 50%;
+    /*Posiciona a 50% da altura do elemento filho*/
+    transform: translateY(-50%);
+    /*Move o elemento ao longo do eixo vertical y*/
+    width: 5%;
+    /*Ajuste da largura das setas*/
+    z-index: 1;
+    /*Garante que fiquem sobre a imagem*/
+    background-color: rgba(0, 0, 0, 0.5);
+    /*Um fundo semitransparente*/
+}
+#paginaAtual{
+    background-color: #d0dbf8;
+    /*Trocar a cor de fundo*/
+    color: black;
+    /*A cor do texto*/
+    width: 100px;
+    /*Ajustaremos a largura do elemento*/
+    padding: 15px 25px;
+    /*A distância do conteúdo*/
+    border-radius: 8px;
+    /*Arredondar as bordas de um elemento*/
+    text-decoration: none;
+}
+
+img {
+    border-radius: 50px;
+    padding-top: 1px;
+    margin: 10px;
 }
 
 
-
+footer {
+    background-color: black;
+    height: 50px;
+    color: aliceblue;
+    justify-items: center;
+    padding-top: 1%;
+    margin-bottom: 0%;
+}
